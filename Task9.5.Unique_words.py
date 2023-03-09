@@ -28,7 +28,7 @@ def dic_with_words_and_frequency(name_file):
 def create_file_with_results(file_name, dic):
     with open(file_name, 'a') as file:
         for key, value in dic.items():
-            file.write(f'Слово "{key}" зустрічається {value} раз(а)\n\n')
+            file.write(f'Слово "{key}" зустрічається {value} раз(а)\n')
 
 
 main()
